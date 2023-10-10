@@ -1,0 +1,8 @@
+#entornos
+/.venv
+#empabee_v2
+/empabee_v2/__pycache__
+
+#empabee_auth
+/empabee_auth/__pycache__
+/empabee_auth/migrations/__pycache__

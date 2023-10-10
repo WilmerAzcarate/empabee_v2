@@ -1,0 +1,8 @@
+INSERT INTO `t_identificacion` (`nombre`, `diminutivo`, `descripcion`, `created_at`, `updated_at`) VALUES
+("Cédula de Ciudadanía", "CC", "Documento de identificación para ciudadanos colombianos. Se emite a los ciudadanos desde su nacimiento o cuando cumplen la mayoría de edad (18 años). Contiene información personal como nombre, fecha de nacimiento, lugar de nacimiento y número de identificación.", NOW(), NOW()),
+("Cédula de Extranjería", "CE", "Documento de identificación para extranjeros que residen en Colombia de forma temporal o permanente. Contiene información personal y un número de identificación único.", NOW(), NOW()),
+("Pasaporte", "PP", "Documento de viaje y de identificación emitido por el gobierno colombiano. Se utiliza para viajar al extranjero y también como documento de identificación.", NOW(), NOW()),
+("Tarjeta de Identidad", "TI", "Documento de identificación para menores de edad en Colombia. Contiene información personal y un número de identificación único.", NOW(), NOW()),
+("Registro Civil de Nacimiento", "RCN", "Documento que certifica el nacimiento de una persona en Colombia. Contiene información sobre la fecha y lugar de nacimiento, así como los nombres de los padres.", NOW(), NOW()),
+("Tarjeta de Registro de Extranjero", "TRE", "Documento de identificación para extranjeros que residen temporalmente en Colombia. Contiene información personal y un número de identificación único.", NOW(), NOW()),
+("Permiso Especial de Permanencia", "PEP", "Documento de identificación para extranjeros que tienen permiso especial de permanencia en Colombia. Contiene información personal y un número de identificación único.", NOW(), NOW());
