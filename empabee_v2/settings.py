@@ -37,7 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'empabee_auth'
+    # 'bootstrap4',
+    # 'widget-tweaks',
+    'empabee_auth',
+    'general',
+    'piscicultura'
 ]
 
 MIDDLEWARE = [
@@ -79,8 +83,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'empabee',
         'USER': 'root',
-        'PASSWORD': 'Admin1234*',
-        'PORT': '3307',
+        'PASSWORD': '',
+        'PORT': '3306',
         'HOST':'127.0.0.1' 
     }
 }

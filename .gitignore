@@ -6,3 +6,11 @@
 #empabee_auth
 /empabee_auth/__pycache__
 /empabee_auth/migrations/__pycache__
+
+#general
+/general/__pycache__
+/general/migrations/__pycache__
+
+#piscicultura
+/piscicultura/__pycache__
+/piscicultura/migrations/__pycache__
